@@ -2,6 +2,7 @@
     --vermelhoPrincipal: #D6000D;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
 
 body {
@@ -12,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 500px;
+    gap: 400px;
     margin: 0px 40px;
 
 }
@@ -21,7 +22,7 @@ header {
     font-weight: 700;
     display: flex;
     color: var(--vermelhoPrincipal);
-    font-size: 3.8rem;
+    font-size: 7rem;
 }
 
 .ponto {
@@ -31,11 +32,17 @@ header {
 .lista-links {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .item-lista-links{
-    font-size: 1.7rem;
+    font-size: 3rem;
     text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
 
 li{
@@ -47,46 +54,161 @@ li{
     color: aliceblue;
     background-color: var(--vermelhoPrincipal);
     border: none;
-    font-size: 1.6rem;
+    font-size: 3rem;
     border-radius: 15px;
     font-weight: 700;
-    width: 15rem;
-    height: 3.5rem;
+    width: 20rem;
+    height: 5rem;
 }
 
 .coding-incrivel-container {
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.coding-img {
+    width: 35%;
+    max-width: 1100px;
 }
 
 .alavanque {
-    font-size: 1.6rem;
+    font-size: 2.7rem;
     margin: 0px;
     font-weight: 600;
 }
 
 .website-incrivel {
-    font-size: 3.5rem;
+    font-size: 7rem;
     color: var(--vermelhoPrincipal);
     margin: 0px;
     font-weight: 700;
 }
 
+.website-incrivel-container {
+    margin-top: 200px;
+}
+
 .button-orçamento {
-    font-size: 2rem;
+    font-size: 3rem;
     border-radius: 15px;
     border: none;
     color: aliceblue;
     background-color: var(--vermelhoPrincipal);
     font-weight: 700;
     margin-top: 50px;
-    width: 400px;
-    height: 90px;
+    width: 40rem;
+    height: 5rem;
 }
 
 .lista-vantagens-container {
+    margin-top: 10%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
+
+.vantagens {
+    font-size: 2.4rem;
+}
+
+.item-vantagens {
+    margin-top: 20px;
+}
+
+.video-img {
+    width: 35%;
+    max-width: 1100px;
+}
+
+.fale-conosco{
+   
+}
+
+ .equipe {
+    font-size: 2.5rem;
+ }
+
+ .celular {
+     border: none;
+     background-color: rgb(204, 204, 204);
+     border-radius: 15px;
+     width: 20rem;
+     height: 4rem;
+ }
+
+ .button-ligamos {
+     width: 20rem;
+     height: 4rem;
+     border: none;
+     border-radius: 15px;
+     background-color: var(--vermelhoPrincipal);
+     color: aliceblue;
+     font-size: 1.6rem;
+     font-weight: 700;
+ }
+
+ .prova-social-container {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .nome {
+     font-size: 2.7rem;
+     font-weight: 400;
+     margin: 0;
+ }
+
+ .cliente {
+    background-color: rgb(204 204 204);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+    margin-bottom: 100px;
+ }
+
+ .img-client {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top:20px ;
+ }
+
+ .texto-prova {
+     font-size: 1.5rem;
+ }
+
+ .persona-prova {
+     font-weight: 700;
+     font-size: 1.4rem;
+     margin: 0 0 12 0;
+ }
+
+ footer {
+     background-color: black;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-evenly;
+     color: aliceblue;
+     height: 500px;
+     padding-top: 100px;
+ }
+
+ .footer-logo {
+     font-size: 5rem;
+    font-style: italic;
+     
+ }
+
+ .footer-item {
+     font-size: 3rem;
+ }
+
+ .paragrafo-footer{
+     font-size: 2rem;
+     justify-content: s;
+ }
