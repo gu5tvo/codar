@@ -1,3 +1,6 @@
+/* configuações globaes */
+
+
 :root {
     --vermelhoPrincipal: #D6000D;
 }
@@ -5,17 +8,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
 
+/* inicio */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header  */
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 400px;
-    margin: 0px 40px;
-
+    margin-top: 50px;
 }
 
 .logo {
@@ -61,8 +66,16 @@ li{
     height: 5rem;
 }
 
+/* parte principal do site */
+
+.main-content {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/* primeira tela */
 .coding-incrivel-container {
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -102,8 +115,14 @@ li{
     height: 5rem;
 }
 
+i {
+    color: #D6000D;
+    margin-right: 30px;
+}
+
+/* segunda tela */
 .lista-vantagens-container {
-    margin-top: 10%;
+    margin-top: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -111,7 +130,8 @@ li{
 }
 
 .vantagens {
-    font-size: 2.4rem;
+    font-size: 3rem;
+    padding-top: 200px;
 }
 
 .item-vantagens {
@@ -124,6 +144,7 @@ li{
 }
 
 .fale-conosco{
+    margin-top: 200px;
    
 }
 
@@ -133,24 +154,32 @@ li{
 
  .celular {
      border: none;
-     background-color: rgb(204, 204, 204);
+     background-color: #f2f2f2;
      border-radius: 15px;
-     width: 20rem;
-     height: 4rem;
+     width: 25rem;
+     height: 6rem;
  }
 
+::placeholder {
+    font-size: 2rem;
+    padding-left: 30px;
+}
+ 
+
  .button-ligamos {
-     width: 20rem;
-     height: 4rem;
+     width: 25rem;
+     height: 6rem;
      border: none;
      border-radius: 15px;
      background-color: var(--vermelhoPrincipal);
      color: aliceblue;
-     font-size: 1.6rem;
+     font-size: 2em;
      font-weight: 700;
  }
 
+ /* terceira tela */
  .prova-social-container {
+     margin-top: 200px;
      display: flex;
      justify-content: space-evenly;
  }
@@ -162,7 +191,7 @@ li{
  }
 
  .cliente {
-    background-color: rgb(204 204 204);
+    background-color: #f2f2f2;
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -211,4 +240,9 @@ li{
  .paragrafo-footer{
      font-size: 2rem;
      justify-content: s;
+ }
+
+ .fa-brands {
+     font-size: 4rem;
+     padding: 5px 20px;
  }
