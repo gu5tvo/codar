@@ -1,5 +1,5 @@
 # Project Details
-The DevChallenge provided a webpage design that I needed to clone using HTML and CSS for the desktop. The point of this assignment is to create something from scratch and getting various elements in more or less the right position relative to the rest.
+The DevChallenge (https://devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details) provided a webpage design that I needed to clone using HTML and CSS for the desktop. The point of this assignment is to create something from scratch and getting various elements in more or less the right position relative to the rest.
 
 # Skills Learned
 Coming more comfortable with the CSS Flexbox model, especially justify-content and align-item rules
